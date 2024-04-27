@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.home {
+  background-color: #1a73e8;
+  padding-bottom: 30px;
+  min-height: 100vh;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  color: white;
+}
+
+.home-header-a {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.home-header-a a {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 280px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid rgb(170, 170, 170);
+  box-shadow: 0 0 5px 2px white;
+  overflow: hidden;
+}
+
+.car-img {
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a73e8;
+  position: relative;
+}
+
+.car-img h1 {
+  background-color: grey;
+  color: white;
+  width: 90px;
+  height: 90px;
+  font-size: 40px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -40px;
+  border: 3px solid rgb(138, 138, 0);
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.car-img h1:hover {
+  border: 3px solid transparent;
+}
+
+.card-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.card-info-name {
+  color: grey;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+.card-info-role {
+  font-size: 18px;
+  font-weight: 600;
+  color: grey;
+  padding-bottom: 5px;
+}
+
+.card-info-role span {
+  color: #1a73e8;
+}
+
+.card-info-number {
+  font-weight: 600;
+  color: grey;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  padding-bottom: 5px;
+}
+
+.card-info-number span {
+  color: rgb(138, 138, 0);
+}
+
+.form {
+  width: 300px;
+  background-color: white;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.form input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+.form button {
+  background-color: #1a73e8;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #1a73e8;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
